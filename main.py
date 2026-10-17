@@ -81,7 +81,7 @@ def main():
 
     decorations = create_decorative_sprites()
     win_background = my_sprite("assets/background/win_bg.png", (0, 0), size=(1200, 800))
-    restart_text = text_sprite("Press R to Restart", size=36, color=(255, 255, 255), loc=(452.5, 500))
+    restart_text = text_sprite("Press R to Restart", size=36, color=(255, 255, 255), loc=(453, 500))
 
     left_hand, right_hand = create_vehicles()
     left_hand_kb = keyboard_mover(left_hand, pygame.K_w, pygame.K_a, pygame.K_s, pygame.K_d, pygame.K_SPACE)
