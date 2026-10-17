@@ -1,4 +1,4 @@
-from colliding_object_modified import colliding_object
+from colliding_object import colliding_object
 
 class moving_vehicle(colliding_object):
     def __init__(self, image_fname, loc=(0, 0)):

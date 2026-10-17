@@ -1,7 +1,7 @@
 import os
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 import pygame
-from my_sprite_modified import my_sprite
+from my_sprite import my_sprite
 
 class colliding_object(my_sprite):
     def __init__(self, image_fname, loc=(0, 0)):
