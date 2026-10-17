@@ -4,9 +4,9 @@ import pygame
 import sys
 import random
 
-from my_sprite import my_sprite
-from colliding_object import colliding_object
-from moving_vehicle import moving_vehicle
+from my_sprite_modified import my_sprite
+from colliding_object_modified import colliding_object
+from moving_vehicle_modified import moving_vehicle
 from text_sprite import text_sprite
 from initialize_game import initialize_game
 from map import map
