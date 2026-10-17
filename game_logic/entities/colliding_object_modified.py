@@ -1,8 +1,8 @@
 import os
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 import pygame
-from my_sprite_modified import my_sprite
-from image_switcher import image_switcher
+from game_logic.entities.my_sprite_modified import my_sprite
+from game_logic.systems.image_switcher import image_switcher
 
 class colliding_object(my_sprite):
     def __init__(self, image_fname, loc=(0,0), size=None, other_image_fname=None):

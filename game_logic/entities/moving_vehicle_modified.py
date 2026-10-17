@@ -1,4 +1,4 @@
-from colliding_object_modified import colliding_object
+from game_logic.entities.colliding_object_modified import colliding_object
 
 class moving_vehicle(colliding_object):
     def __init__(self, image_fname, loc=(0,0), size=None, other_image_fname=None):

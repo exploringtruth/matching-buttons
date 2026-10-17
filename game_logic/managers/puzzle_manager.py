@@ -1,4 +1,4 @@
-from hold_timer import hold_timer
+from game_logic.managers.hold_timer import hold_timer
 
 class puzzle_manager:
     def __init__(self, button_pairs, required_time=3.0):
